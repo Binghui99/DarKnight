@@ -34,9 +34,7 @@ DarkKnight/
 │   └── errors.py              # ConnectionFailure and network-error classification
 ├── config/
 │   └── config.py              # Model endpoints, MODELS list, RAG/pipeline settings
-├── datasets/                  # Dataset JSON files
-├── results/                   # Pipeline results (JSON, CSV)
-├── logs/                      # Per-run structured logs 
+├── dataset/                   # Dataset JSON files and png
 ├── rag_store/                 # Stored RAG databases
 ├── pipeline.py                # Per-sample run orchestrator
 └── run_pipeline.py            # Entry point: dataset × model evaluation loop
