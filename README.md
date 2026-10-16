@@ -1,31 +1,38 @@
-# DarKnight
 
+# DarKnight
 
 [![PyPI](https://img.shields.io/pypi/v/darknight)](https://pypi.org/project/darknight/)
 [![Python](https://img.shields.io/pypi/pyversions/darknight)](https://pypi.org/project/darknight/)
 
+A pipeline for solving CAPTCHAs using vision-language models (VLMs), RAG-based experience memory, and a structured image preprocessing toolbox.
 
-## Python Library
+## Overview
 
-DarKnight is also available as a Python library on PyPI.
+DarKnight consists of three main components:
 
-**PyPI:** https://pypi.org/project/darknight/
+- **PlannerAgent**: Analyzes CAPTCHA images, retrieves similar examples, and generates preprocessing plans.
+- **ExecutorAgent**: Executes preprocessing tools and performs VLM-based OCR.
+- **RAGStore**: Maintains an experience memory of past successes and failures.
 
-Install via pip:
+## Installation
+
+### Install from PyPI
+
+DarKnight is available as a Python package on [PyPI](https://pypi.org/project/darknight/).
 
 ```bash
 pip install darknight
 ```
 
-## Overview
+### Install from Source
 
-A pipeline for solving CAPTCHAs using vision-language models (VLMs), a RAG-based experience memory, and a small structured image preprocessing toolbox.
+Clone the repository and install the required dependencies:
 
-- **PlannerAgent** : analyses the CAPTCHA image, retrieves similar past examples from the RAG store, and produces a preprocessing plan via chain-of-thought reasoning.
-- **ExecutorAgent** : deterministically runs the plan's tools, calls the OCR model with a type-specific prompt, and solves math expressions post-OCR when needed.
-- **RAGStore** : persists execution history (per dataset/planner/OCR combo) and retrieve similar past records to the planner so it can learn from prior successes and failures.
+```bash
+pip install -r requirements.txt
+```
 
----
+
 
 ## Project Structure
 
