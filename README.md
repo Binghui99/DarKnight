@@ -7,7 +7,7 @@
 
 ## Python Library
 
-DarkNight is also available as a Python library on PyPI.
+DarKnight is also available as a Python library on PyPI.
 
 **PyPI:** https://pypi.org/project/darknight/
 
