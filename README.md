@@ -14,26 +14,6 @@ DarKnight consists of three main components:
 - **ExecutorAgent**: Executes preprocessing tools and performs VLM-based OCR.
 - **RAGStore**: Maintains an experience memory of past successes and failures.
 
-## Installation
-
-### Install from PyPI
-
-DarKnight is available as a Python package on [PyPI](https://pypi.org/project/darknight/).
-
-**PyPI:** https://pypi.org/project/darknight/
-
-```bash
-pip install darknight
-```
-
-### Install from Source
-
-Clone the repository and install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 
 
 ## Project Structure
@@ -311,3 +291,31 @@ Each result record contains: `dataset`, `sample_id`, `ground_truth`, `prediction
 RAG databases are saved per combo under `rag_store/{dataset}__{planner}__{ocr}.json`. 
 
 Per-run structured logs (JSONL + human-readable transcript) are saved under `logs/{run_id}/`.
+
+
+---
+
+## Python Library
+
+For users who want to integrate DarKnight into their own Python applications, we also provide a lightweight Python package with a simplified API.
+
+**PyPI:** https://pypi.org/project/darknight/
+
+```bash
+pip install darknight
+```
+
+Example usage:
+
+```python
+import dk
+
+result = dk.solve("captcha.png")
+print(result)
+```
+
+The GitHub repository provides the full research and evaluation pipeline, while the PyPI package offers a simplified interface for practical integration.
+
+
+
+
