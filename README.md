@@ -1,11 +1,21 @@
 # DarKnight
 
 
-# DarkNight
-
 [![PyPI](https://img.shields.io/pypi/v/darknight)](https://pypi.org/project/darknight/)
 [![Python](https://img.shields.io/pypi/pyversions/darknight)](https://pypi.org/project/darknight/)
 
+
+## Python Library
+
+DarkNight is also available as a Python library on PyPI.
+
+**PyPI:** https://pypi.org/project/darknight/
+
+Install via pip:
+
+```bash
+pip install darknight
+```
 
 ## Overview
 
@@ -49,17 +59,6 @@ DarkKnight/
 
 ---
 
-## Python Library
-
-DarkNight is also available as a Python library on PyPI.
-
-**PyPI:** https://pypi.org/project/darknight/
-
-Install via pip:
-
-```bash
-pip install darknight
-```
 
 ## Setup
 
