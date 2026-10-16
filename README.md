@@ -19,6 +19,7 @@ DarKnight consists of three main components:
 ### Install from PyPI
 
 DarKnight is available as a Python package on [PyPI](https://pypi.org/project/darknight/).
+**PyPI:** https://pypi.org/project/darknight/
 
 ```bash
 pip install darknight
