@@ -19,7 +19,7 @@ DarKnight consists of three main components:
 ## Project Structure
 
 ```
-DarkKnight/
+DarKnight/
 ├── agents/
 │   ├── planner_agent.py       # visual analysis & generate CoT plan 
 │   ├── planner_prompts.py     # Prompt templates used by PlannerAgent
