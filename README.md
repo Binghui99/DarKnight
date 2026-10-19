@@ -317,5 +317,21 @@ print(result)
 The GitHub repository provides the full research and evaluation pipeline, while the PyPI package offers a simplified interface for practical integration.
 
 
+## Citation
+
+If you find DarKnight useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{wu2026darknight,
+  title={DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates},
+  author={Binghui Wu and Yeo Zi Yi and Darren Tan and Manit Baser and Levente Csikor and Dinil Mon Divakaran},
+  year={2026},
+  eprint={2610.19830},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2610.19830}
+}
+```
+
 
 
