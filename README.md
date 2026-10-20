@@ -18,12 +18,8 @@ If you find **DarKnight** useful in your research, please consider citing our pa
 @inproceedings{wu2026darknight,
   title={DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates},
   author={Binghui Wu and Yeo Zi Yi and Darren Tan and Manit Baser and Levente Csikor and Dinil Mon Divakaran},
-  booktitle={Proceedings of the 2026 APWG Symposium on Electronic Crime Research (eCrime)},
+  booktitle={APWG Symposium on Electronic Crime Research (eCrime)},
   year={2026},
-  note={Accepted for publication},
-  eprint={2610.19830},
-  archivePrefix={arXiv},
-  primaryClass={cs.CR},
   url={https://arxiv.org/abs/2610.19830}
 }
 ```
