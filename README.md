@@ -3,6 +3,29 @@
 
 [![PyPI](https://img.shields.io/pypi/v/darknight)](https://pypi.org/project/darknight/)
 [![Python](https://img.shields.io/pypi/pyversions/darknight)](https://pypi.org/project/darknight/)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2610.19830)
+
+**Paper:** [DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates](https://arxiv.org/pdf/2610.19830)
+
+*Accepted at APWG eCrime 2026.*
+
+
+## Citation
+
+If you find DarKnight useful in your research, please consider citing our paper:
+
+```bibtex
+@misc{wu2026darknight,
+  title={DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates},
+  author={Binghui Wu and Yeo Zi Yi and Darren Tan and Manit Baser and Levente Csikor and Dinil Mon Divakaran},
+  year={2026},
+  eprint={2610.19830},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2610.19830}
+}
+```
+
 
 A pipeline for solving CAPTCHAs using vision-language models (VLMs), RAG-based experience memory, and a structured image preprocessing toolbox.
 
@@ -317,21 +340,6 @@ print(result)
 The GitHub repository provides the full research and evaluation pipeline, while the PyPI package offers a simplified interface for practical integration.
 
 
-## Citation
-
-If you find DarKnight useful in your research, please consider citing our paper:
-
-```bibtex
-@misc{wu2026darknight,
-  title={DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates},
-  author={Binghui Wu and Yeo Zi Yi and Darren Tan and Manit Baser and Levente Csikor and Dinil Mon Divakaran},
-  year={2026},
-  eprint={2610.19830},
-  archivePrefix={arXiv},
-  primaryClass={cs.CR},
-  url={https://arxiv.org/abs/2610.19830}
-}
-```
 
 
 
