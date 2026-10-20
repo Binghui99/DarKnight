@@ -27,9 +27,11 @@ If you find DarKnight useful in your research, please consider citing our paper:
 ```
 
 
-A pipeline for solving CAPTCHAs using vision-language models (VLMs), RAG-based experience memory, and a structured image preprocessing toolbox.
+
 
 ## Overview
+
+A pipeline for solving CAPTCHAs using vision-language models (VLMs), RAG-based experience memory, and a structured image preprocessing toolbox.
 
 DarKnight consists of three main components:
 
