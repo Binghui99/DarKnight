@@ -19,8 +19,7 @@ If you find **DarKnight** useful in your research, please consider citing our pa
   title={DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates},
   author={Binghui Wu and Yeo Zi Yi and Darren Tan and Manit Baser and Levente Csikor and Dinil Mon Divakaran},
   booktitle={2026 APWG Symposium on Electronic Crime Research (eCrime)},
-  year={2026},
-  note={Accepted for publication}
+  year={2026}
 }
 ```
 
