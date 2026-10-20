@@ -12,7 +12,7 @@
 
 ## Citation
 
-If you find DarKnight useful in your research, please consider citing our paper:
+If you find **DarKnight** useful in your research, please consider citing our paper:
 
 ```bibtex
 @misc{wu2026darknight,
